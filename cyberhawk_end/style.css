@@ -1,0 +1,65 @@
+ body {
+
+ background: linear-gradient(234deg, #000000, #6f1f00,#962a00,#bc3500,#0087bc,#006b96,#1a2653, #000000);
+ background-size: 1200% 1200%;
+
+ -webkit-animation: AnimationName 20s ease infinite;
+ -moz-animation: AnimationName 20s ease infinite;
+ animation: AnimationName 20s ease infinite;
+
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+.end-page {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.end-image {
+	height: 200px;
+	width: 200px;
+	background: url('LogoWhiteTextWide.png');
+	background-size: cover;
+	background-position: left;
+	padding: 5%;
+	margin-bottom: 10%;
+	margin-left: 28%;
+}
+
+.end-info p{
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: -4%;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.end-image{
+		margin-left: 20%;
+	}
+
+}
